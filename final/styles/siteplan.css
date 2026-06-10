@@ -97,10 +97,9 @@ p {
 
 .secondary {
     background-color: var(--secondarycolor);
-    color: var(--textcolor); 
+    color: var(--textcolor);
   }
 
-  
   .accent {
     background-color: var(--accentcolor);
     color: var(--primarycolor);
