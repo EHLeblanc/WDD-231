@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="styles/base.css">
    <link rel="stylesheet" href="styles/discover.css">
    <link rel="icon" href="alicefavicon.ico">
-   <script src="scripts/discover.js" defer></script>
+   <script type="module" src="scripts/discover.js"></script>
+   <script src="scripts/visitdate.js" defer></script>
    <script src="scripts/getdate.js" defer></script>
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
    
@@ -31,14 +32,12 @@
             </section>
         </section>
         <section>
-            <nav id="animation">
-                <ul class="menuLinks">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="directory.html">Directory</a></li>
-                    <li><a href="join.html">Join</a></li>
-                    <li class="active"><a href="discover.html">Discover</a></li>            
-                </ul>
-            </nav>
+            <nav>
+               <a href="./index.html"><h2>Home</h2></a>
+               <a href="./directory.html"><h2>Directory</h2></a>
+               <a href="./join.html"><h2>Join</h2></a>
+               <a href="./discover.html"><h2>Discover</h2></a>
+           </nav>
         </section>
         
     </header>
@@ -59,29 +58,44 @@
 
         <section class="card">
             <h2>Activities in Alice</h2>
-            <p>Jim Wells County Fair - This annual celebration features local crafts, food trucks and stands, and a carnival during the month of October.</p><p>Historic Downtown - Alice's downtown features vintage boutiques, resturants, and other stores that make you feel like you are standing in another time.</p><p>Alice Natatorium - The local YMCA features both an indoor pool and a outdoor waterpark with slides and a lazy river that opens in the summer.</p><p>South Texas Museum - The museum boasts the judge's bench from the Box 13 Scandal case as well as artifacts like old railway lamps and a horse collar woven from corn shucks.</p><p>Lake Findley - Due to a wide variety of hides and depths in the shallow lake, Lake Findley provides an area for assorted fish species as well as birds who come to feast on the aquatic life.</p><p>Alice Farmer's Market - The Farmer's Market boasts jellies and preserves, fresh eggs and meat, honey, baked goods, jewelry, and other assorted crafts.</p>
         </section>
 
         <div class="imagessection">
             <div class="imagesdiv">
-                <img src="images/jimwellsparade.webp" alt="Parade for the Jim Wells County Fair" loading="lazy" width="700">
+                <img src="images/jimwellsparade.webp" alt="Parade for the Jim Wells County Fair" loading="lazy" width="700px">
                 <h3>Jim Wells County Fair Parade</h3>
+                <p>Jim Wells County Fair - This annual celebration features local crafts, food trucks and stands, and a carnival during the month of October.</p>
+                <button id="learn-more-gold">Learn More</button>
 
-                <img src="images/historictown.webp" alt="Shops in the historic downtown" loading="lazy" width="700">
+                <img src="images/historictown.webp" alt="Shops in the historic downtown" loading="lazy" width="700px">
                 <h3>Historic Downtown</h3>
+                <p>Historic Downtown - Alice's downtown features vintage boutiques, resturants, and other stores that make you feel like you are standing in another time.</p>
+                <button id="learn-more-gold">Learn More</button>
 
-                <img src="images/natatorium.webp" alt="Waterpark with slides and a lazy river" loading="lazy" width="700">
+                <img src="images/natatorium.webp" alt="Waterpark with slides and a lazy river" loading="lazy" width="700px">
                 <h3>Aice Natatorium</h3>
+                <p>Alice Natatorium - The local YMCA features both an indoor pool and a outdoor waterpark with slides and a lazy river that opens in the summer.</p>
+                <button id="learn-more-gold">Learn More</button>
 
-                <img src="images/museum.webp" alt="Inside of the South Texas Museum" loading="lazy" width="700">
+                <img src="images/museum.webp" alt="Inside of the South Texas Museum" loading="lazy" width="700px">
                 <h3>South Texas Museum</h3>
+                <p>South Texas Museum - The museum boasts the judge's bench from the Box 13 Scandal case as well as artifacts like old railway lamps and a horse collar woven from corn shucks.</p>
+                <button id="learn-more-gold">Learn More</button>
 
-                <img src="images/lakefindley.webp" alt="View of Lake Findley" loading="lazy" width="700">
+                <img src="images/lakefindley.webp" alt="View of Lake Findley" loading="lazy" width="700px">
                 <h3>Lake Findley</h3>
+                <p>Lake Findley - Due to a wide variety of hides and depths in the shallow lake, Lake Findley provides an area for assorted fish species as well as birds who come to feast on the aquatic life.</p>
+                <button id="learn-more-gold">Learn More</button>
 
-                <img src="images/market.webp" alt="Stall in Alice Farmer's Market" loading="lazy" width="700">
+                <img src="images/market.webp" alt="Stall in Alice Farmer's Market" loading="lazy" width="700px">
                 <h3>Alice Farmer's Market</h3>
+                <p>Alice Farmer's Market - The Farmer's Market boasts jellies and preserves, fresh eggs and meat, honey, baked goods, jewelry, and other assorted crafts.</p>
+                <button id="learn-more-gold">Learn More</button>
             </div>
+        </div>
+        <section class="card">
+            <h2></h2>
+        </section>
         </div>
     </main>
 </body>
