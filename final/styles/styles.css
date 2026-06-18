@@ -27,7 +27,7 @@
   }
   #logo {
     display: flex;
-    align-items: left;
+    justify-content: flex-start;
     padding: 1rem;
     width: 70px;
     height: 70px;
