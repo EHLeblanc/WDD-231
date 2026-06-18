@@ -1,0 +1,98 @@
+[
+    {
+        "name": "American cockroach",
+        "orgin": "Africa and the Middle East",
+        "size":"2+ inches",
+        "benefit":"Waste disposal, medicine"
+    },
+    {
+        "name": "German cockroach",
+        "orgin": "Southeast Asia",
+        "size":"3/4s inch",
+        "benefit":"Waste disposal, medicine"
+    },
+    {
+        "name": "Brown-banded cockroach",
+        "orgin": "Florida",
+        "size":"13 mm",
+        "benefit":"Waste disposal"
+    },
+    {
+        "name": "Oriental cockroach",
+        "orgin": "Africa",
+        "size":"32 mm",
+        "benefit":"Waste disposal"
+    },
+    {
+        "name": "Australian Cockroaches",
+        "orgin": "Florida",
+        "size":"1.5 inches",
+        "benefit":"Waste disposal"
+    },
+    {
+        "name": "Asian Cockroach",
+        "orgin": "Southeast Asia",
+        "size":"13 to 16 mm",
+        "benefit":"Waste disposal"
+    },
+    {
+        "name": "Cinereous (Lobster) Cockroaches",
+        "orgin": "Northeastern Africa",
+        "size":"1.5 inches",
+        "benefit":"Food source"
+    },
+    {
+        "name": "Cuban Cockroaches",
+        "orgin": "Cuba",
+        "size":"3/4 to 1 inch",
+        "benefit":"Pet"
+    },
+    {
+        "name": "Death Head Cockroach",
+        "orgin": "Mexico",
+        "size":"2 to 3 inches",
+        "benefit":"Food source"
+    },
+    {
+        "name": "Field Cockroaches",
+        "orgin": "Central and Southwest Asia",
+        "size":"1/2 inch",
+        "benefit":"Waste disposal"
+    },
+    {
+        "name": "Florida Woods Cockroach",
+        "orgin": "Southeastern United States and the West Indies",
+        "size":"1.2 to 1.6 inches",
+        "benefit":"Waste disposal"
+    },
+    {
+        "name": "Madeira Cockroaches",
+        "orgin": "West Africa",
+        "size":" 1.5 and 2 inches",
+        "benefit":"Medicine"
+    },
+    {
+        "name": "Pacific Beetle Cockroaches",
+        "orgin": "Indo-Pacific region",
+        "size":"15 mm to 25 mm",
+        "benefit":"Research"
+    },
+    {
+        "name": "Pale-Bordered Field Cockroaches",
+        "orgin": "Mexico and Central America",
+        "size":"0.5 to 0.75 inches",
+        "benefit":"Waste disposal"
+    },
+    {
+        "name": "Sand Cockroach",
+        "orgin": "Southwestern North America and Mexico",
+        "size":"0.5 to 1.5 inches",
+        "benefit":"Waste disposal"
+    },
+    {
+        "name": "Surinam Cockroach",
+        "orgin": "Indomalayan region of Southeast Asia",
+        "size":"1 inch",
+        "benefit":"Waste disposal"
+    }
+]

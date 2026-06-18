@@ -1,0 +1,124 @@
+:root {
+    --primarycolor: #340e07;
+    --secondarycolor: #1C77C3;
+    --accentcolor: #F39237;
+    --textcolor: #ffffff;
+
+    --headingfont: "Kanit", sans-serif;
+    --paragraphfont: "Roboto", serif;
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 1280px) {
+
+    body{
+      font-family: var(--headingfont);
+      
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--secondarycolor);
+        height: 5rem;
+    }
+    
+    #logo h1 {
+      color: var(--textcolor);
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: var(--textcolor);
+    }
+    
+    /*nav.collapsed {
+        max-height: 100%;
+        opacity: 100%;
+    }*/
+    
+    nav a {
+        text-decoration: none;
+        padding: 10px;
+        font-size: 1rem;
+    }
+    
+    #menu {
+        display: none;
+    }
+    
+    
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    main {
+        flex: 1;
+        max-width: 1217px;
+        margin: 0 auto; 
+    }
+    .flex {
+        flex-direction: row;
+      }
+    
+    #cards-section{
+      grid-template-columns: 1fr 1fr ;
+    }
+    }
+    
+    @media only screen and (min-width: 1280px) {
+      header {
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--black);
+        height: 5rem;
+      }
+    
+      #logo h1 {
+        color: var(--soft-blue);
+      }
+    
+      nav {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          color: var(--soft-blue);
+      }
+    
+      nav.collapsed {
+          max-height: 100%;
+          opacity: 100%;
+      }
+    
+      nav a {
+          color: white;
+          text-decoration: none;
+          padding: 10px;
+          font-size: 1rem;
+      }
+    
+      #menu {
+          display: none;
+      }
+    
+      .flex {
+        flex-direction: row;
+      }
+    
+      #cards-section {
+      grid-template-columns: 1fr 1fr 1fr;
+      }
+      footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 26rem;
+        
+    }
+    }
+    
