@@ -22,8 +22,8 @@
     <link rel="icon" href="bettafavicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <script src="./scripts/main.js" defer></script>
     <script src="./scripts/roach-script.js" defer></script>
@@ -35,9 +35,9 @@
 <body>
   <header>
     <div id="logo">
-        <img src="./images/roachlogo.png" alt="Logo" loading="lazy" width="100px">
-        <h1>Roach Bene-Fix</h1>
+        <img src="./images/roachlogo.png" alt="Logo" width="100px">
     </div>
+    <h1>Roach Bene-Fix</h1>
     
     <button id="menu" aria-label="Menu" aria-expanded="false" aria-controls="navigation">☰</button>
     <nav id="navigation" class="collapsed">
@@ -52,9 +52,7 @@
       <div class="flex">
         
           <img class="image"
-            src="./images/Radroach.jpg"
-            loading="eager"
-            alt="cockroach"/>
+            src="./images/Radroach.jpg" fetchpriority="high" alt="cockroach"/>
         
         <div class="text">
           <h1 class="title">Teaching you more about Roaches every day!</h1>
